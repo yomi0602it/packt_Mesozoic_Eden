@@ -1,4 +1,4 @@
-package packt-Mesozoic-Eden.MesozoicEden.src.Welcome.Entrance;
+package packt_Mesozoic_Eden.MesozoicEden.src.Welcome.Entrance;
 
 public class Entrance {
 public static void main(String[] args) {
