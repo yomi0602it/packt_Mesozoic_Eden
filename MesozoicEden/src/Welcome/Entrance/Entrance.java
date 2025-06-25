@@ -1,7 +1,8 @@
-package packt_Mesozoic_Eden.MesozoicEden.src.Welcome.Entrance;
+package src.Welcome.Entrance;
 
 public class Entrance {
-public static void main(String[] args) {
+    
+    public static void main(String[] args) {
         System.out.println("Welcome to Mesozoic Eden");
         String openingHours = "08:00";
         String closingHours = "20:00";
@@ -9,3 +10,4 @@ public static void main(String[] args) {
         System.out.println("Mesozoic Eden is safe and secure.");
     }
 }
+
