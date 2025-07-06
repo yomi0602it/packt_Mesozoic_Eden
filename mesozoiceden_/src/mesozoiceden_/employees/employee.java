@@ -1,8 +1,7 @@
-package MesozoicEden.src.Employees;
+package mesozoiceden_.employees;
 
-public class Employee {
-
-    //Instance Block executes after static block and executes before constructor
+public class employee {
+//Instance Block executes after static block and executes before constructor
     //Static block 
         static {
             //Static block

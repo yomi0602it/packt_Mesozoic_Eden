@@ -1,8 +1,7 @@
-package MesozoicEden.src.Dinosaurs;
+package mesozoiceden_.dinos;
 
-public class dinoProfileGenerator {
-
-    //Instance Variables
+public class dinoProfileGen {
+//Instance Variables
         static String name;
         String breed;
         double height;
@@ -15,7 +14,7 @@ public class dinoProfileGenerator {
         double yearlyCost;
 
     //Constructors
-        public dinoProfileGenerator(String name, String breed, double height, double length, double weight, int age, boolean carnivore) {
+        public dinoProfileGen(String name, String breed, double height, double length, double weight, int age, boolean carnivore) {
             this.name = name;
             this.breed = breed;
             this.height = height;
@@ -27,7 +26,7 @@ public class dinoProfileGenerator {
             numDinos ++;
         }
 
-        public dinoProfileGenerator() {
+        public dinoProfileGen() {
 
         }
     //Methods
@@ -56,18 +55,20 @@ public class dinoProfileGenerator {
             return age;
         }
 
-        public static void isCarnivore() {
+        /* public static void isCarnivore() {
             String is = carnivore ? " is a carnivore!" : " is not a carnivore!";
             System.out.println(name + is);           
         }
-
+        */
         
 
         public String dinoName() { //First lettter of name + breed + dinoNumber
             return null;
         }
 
+        //"Meet [Name], a [Age]-year-old [Species]. As a [Diet], it has a robust weight of [Weight] kilograms.".
+
         //Create array of Dinos for inventory
-        //Create array of Breeds with height/weight/length generator Breeds()
+        //Create array of Breeds with height/weight/length generator speciesGenerator()
     
 }

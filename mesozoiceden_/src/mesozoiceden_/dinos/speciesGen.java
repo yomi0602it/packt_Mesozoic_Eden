@@ -1,8 +1,7 @@
-package MesozoicEden.src.Dinosaurs;
+package mesozoiceden_.dinos;
 
-public class Breeds {
-
-    //Instance Variables
+public class speciesGen {
+//Instance Variables
         static String name;
         double minWeight; double maxWeight;
         double minHeight; double maxHeight;
@@ -14,7 +13,7 @@ public class Breeds {
             etc */
             
     //Constructors
-        public Breeds(String name, double minWeight, double maxWeight, double minHeight, double maxHeight, double minLength, double maxLength, int lifeExpect, boolean carnivore) {
+        public speciesGen(String name, double minWeight, double maxWeight, double minHeight, double maxHeight, double minLength, double maxLength, int lifeExpect, boolean carnivore) {
             this.name = name;
             this.minWeight = minWeight;
             this.maxWeight = maxWeight;
@@ -26,7 +25,7 @@ public class Breeds {
             this.carnivore = carnivore;
         }
 
-        public Breeds() {
+        public speciesGen() {
 
         }
 
@@ -41,8 +40,7 @@ public class Breeds {
         public double getMaxLength() {return maxLength;}
         public int getLife() {return lifeExpect;}
         public void isCarnivore() {
-            String is = carnivore ? " is a carnivore!" : " is not a carnivore!";
+            String is = carnivore ? " is a carnivore!" : " is not a carnivore!"; //herbivore
             System.out.println(name + is); 
         }
-
 }
