@@ -1,4 +1,4 @@
-package mesozoiceden_.zoo;
+package mesozoiceden.zoo;
 
 public class habitat {
 

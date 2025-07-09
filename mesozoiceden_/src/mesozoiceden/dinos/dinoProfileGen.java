@@ -1,4 +1,4 @@
-package mesozoiceden_.dinos;
+package mesozoiceden.dinos;
 
 public class dinoProfileGen {
 //Instance Variables

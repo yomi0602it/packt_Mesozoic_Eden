@@ -1,11 +1,12 @@
-package mesozoiceden_.main;
+package mesozoiceden.main;
 
-import mesozoiceden_.zoo.zooInfo;
+import mesozoiceden.zoo.zooInfo;
 
 public class main01 {
 
     public static void main(String[] args) {
         zooInfo zoo1 = new zooInfo("09:00", "20:00", 100, 10.0, 100000.0);
+        zoo1.getMaxVisitors();
         
         /*return
              * 1. Welcome Message
