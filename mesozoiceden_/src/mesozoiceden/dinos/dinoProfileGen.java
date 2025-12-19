@@ -1,29 +1,34 @@
 package mesozoiceden.dinos;
 
-public class dinoProfileGen {
+public class dinoProfileGen extends speciesGen{
 //Instance Variables
-        static String name;
+        String dName;
         String breed;
         double height;
         double length;
         double weight;
         int age;
-        static boolean carnivore;
+        static int dinoNumber;
+        //speciesGen species;
 
-        int numDinos;
-        double yearlyCost;
+        //static double yearlyCost;
 
     //Constructors
-        public dinoProfileGen(String name, String breed, double height, double length, double weight, int age, boolean carnivore) {
-            this.name = name;
+        public dinoProfileGen(String dName, String breed, double height, double length, double weight, int age, boolean carnivore) {
+            this.dName = dName;
             this.breed = breed;
             this.height = height;
             this.length = length;
             this.weight = weight;
             this.age = age;
             this.carnivore = carnivore;
+            //this.species = speciesGen(); //Assuming speciesGen is a class that generates species data
 
-            numDinos ++;
+            dinoNumber ++;
+            //yearlyCost = carnivore ? 5000.0 : 3000.0; //Carnivores are more expensive to feed and maintain
+            //Create formula for yearlyCost based on weight, height, length, and age, species
+            //yearlyCost = (weight * 0.1) + (height * 0.05) + (length * 0.03) + (age * 1000) + (carnivore ? 2000 : 1000);
+            System.out.println("Dino Created: " + dName + " the " ); //Add breed and dinoNumber
         }
 
         public dinoProfileGen() {
@@ -31,8 +36,8 @@ public class dinoProfileGen {
         }
     //Methods
 
-        public String getName() {
-            return name;
+        public String getDName() {
+            return dName;
         }
 
         public String getBreed() {
@@ -54,12 +59,6 @@ public class dinoProfileGen {
         public int getAge() { //Add feature to concat Xyears + Ymonths
             return age;
         }
-
-        /* public static void isCarnivore() {
-            String is = carnivore ? " is a carnivore!" : " is not a carnivore!";
-            System.out.println(name + is);           
-        }
-        */
         
 
         public String dinoName() { //First lettter of name + breed + dinoNumber

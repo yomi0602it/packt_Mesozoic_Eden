@@ -2,12 +2,12 @@ package mesozoiceden.dinos;
 
 public class speciesGen {
 //Instance Variables
-        static String name;
+        String name;
         double minWeight; double maxWeight;
         double minHeight; double maxHeight;
         double minLength; double maxLength;
         int lifeExpect;
-        static boolean carnivore;
+        boolean carnivore;
         /* Climate?
             Period
             etc */

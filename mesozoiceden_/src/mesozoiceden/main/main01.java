@@ -6,7 +6,7 @@ public class main01 {
 
     public static void main(String[] args) {
         zooInfo zoo1 = new zooInfo("09:00", "20:00", 100, 10.0, 100000.0);
-        zoo1.getMaxVisitors();
+        zoo1.welcome();
         
         /*return
              * 1. Welcome Message

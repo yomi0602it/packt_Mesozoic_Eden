@@ -51,8 +51,9 @@ public class zooInfo {
     }
 
     public void welcome() {
-        System.out
-                .println("Welcome to Mesozoic Eden!!" + "\n We open at" + openingHours + " and close at " + closingHours
-                        + "\n Mesozoic Eden is safe and secure. /n Our current saftey rating is " + safetyRating);
+        System.out.println("""
+                           Welcome to Mesozoic Eden!!
+                           We open at """ + openingHours + " and close at " + closingHours + "."
+                        + "\nMesozoic Eden is safe and secure. /n Our current saftey rating is " + safetyRating + ".");
     }
 }
